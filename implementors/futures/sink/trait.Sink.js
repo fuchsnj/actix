@@ -1,0 +1,10 @@
+(function() {var implementors = {};
+implementors["actix"] = ["impl&lt;T&gt; <a class=\"trait\" href=\"https://docs.rs/futures/0.1/futures/sink/trait.Sink.html\" title=\"trait futures::sink::Sink\">Sink</a> for <a class=\"struct\" href=\"actix/queue/sync/struct.Sender.html\" title=\"struct actix::queue::sync::Sender\">Sender</a>&lt;T&gt;","impl&lt;T&gt; <a class=\"trait\" href=\"https://docs.rs/futures/0.1/futures/sink/trait.Sink.html\" title=\"trait futures::sink::Sink\">Sink</a> for <a class=\"struct\" href=\"actix/queue/sync/struct.UnboundedSender.html\" title=\"struct actix::queue::sync::UnboundedSender\">UnboundedSender</a>&lt;T&gt;","impl&lt;'a, T&gt; <a class=\"trait\" href=\"https://docs.rs/futures/0.1/futures/sink/trait.Sink.html\" title=\"trait futures::sink::Sink\">Sink</a> for &amp;'a <a class=\"struct\" href=\"actix/queue/sync/struct.UnboundedSender.html\" title=\"struct actix::queue::sync::UnboundedSender\">UnboundedSender</a>&lt;T&gt;","impl&lt;T&gt; <a class=\"trait\" href=\"https://docs.rs/futures/0.1/futures/sink/trait.Sink.html\" title=\"trait futures::sink::Sink\">Sink</a> for <a class=\"struct\" href=\"actix/queue/unsync/struct.Sender.html\" title=\"struct actix::queue::unsync::Sender\">Sender</a>&lt;T&gt;","impl&lt;T&gt; <a class=\"trait\" href=\"https://docs.rs/futures/0.1/futures/sink/trait.Sink.html\" title=\"trait futures::sink::Sink\">Sink</a> for <a class=\"struct\" href=\"actix/queue/unsync/struct.UnboundedSender.html\" title=\"struct actix::queue::unsync::UnboundedSender\">UnboundedSender</a>&lt;T&gt;","impl&lt;'a, T&gt; <a class=\"trait\" href=\"https://docs.rs/futures/0.1/futures/sink/trait.Sink.html\" title=\"trait futures::sink::Sink\">Sink</a> for &amp;'a <a class=\"struct\" href=\"actix/queue/unsync/struct.UnboundedSender.html\" title=\"struct actix::queue::unsync::UnboundedSender\">UnboundedSender</a>&lt;T&gt;",];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        
+})()
